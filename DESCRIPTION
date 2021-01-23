@@ -1,16 +1,22 @@
 Package: InteriseR
-Title: What the Package Does (One Line, Title Case)
+Title: R Standards for Interise
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Zach",
+           family = "Wulderk",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "zwulderk@interise.org")
+Description: This package contains basic tools for use at Interise. This includes various color palettes,
+  useful functions, and ggplot themes. Its goal is to make R more friendly to Interise users of differing
+  experience and to reduce the need for repetitive steps across different R files.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+Imports: 
+    forcats
+URL: https://github.com/zwulderkINTERISE/InteriseR
+BugReports: https://github.com/zwulderkINTERISE/InteriseR/issues
